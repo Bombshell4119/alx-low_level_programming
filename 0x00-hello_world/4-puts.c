@@ -2,6 +2,7 @@
 /*
 *evrything hass been
 *entered good order
+*the main should be void
 */
 
 int main(void)
