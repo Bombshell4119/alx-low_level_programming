@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
-*main:-the main function shoud be void
-*return:-should end with the value 0
+/**
+*main-entry point
+*return: should return (0)
 */
 
 int main(void)
