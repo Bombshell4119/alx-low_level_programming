@@ -1,9 +1,7 @@
 #include <stdio.h>
 /*
-*evrything hass been
-*entered good order
-*The int main function should be void
-*do not use the value (0) instead.
+*main:-the main function shoud be void
+*return:-should end with the value 0
 */
 
 int main(void)

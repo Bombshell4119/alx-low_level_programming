@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-*the main function should be void
+*main-entry point
 *the printf does not need quotes
 *You are not allowed to use the function puts
 *Your program should return 0
