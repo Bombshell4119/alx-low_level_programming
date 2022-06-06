@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main-entry point
-*return: should return (0)
+*Return: 0 for the puts
 */
 
 int main(void)
