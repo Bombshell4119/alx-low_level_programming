@@ -1,6 +1,6 @@
 /**
-* _strlen_recursion - returns as the length of a string
-* s: string to count as integers
+*_strlen_recursion - returns as the length of a string
+*@s: string to count as integers
 * Return: length of the string
 */
 int _strlen_recursion(char *s)
