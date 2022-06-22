@@ -3,10 +3,9 @@
 *checker -checks the input number from n to the base
 *@n:number is squared and compared against base
 *@base:base number to check
-*Return:natural square root of number base
+*Return:natural square root of number base and number n
 *_sqrt_recursion -This return the natural aquare root of any number
 *@n:This is the number to check for square roots
-*Return:This is the natural sqare root of number n
 */
 int checker(int n, int base)
 {
