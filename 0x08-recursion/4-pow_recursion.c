@@ -1,0 +1,15 @@
+/**
+*_pow_recursion - This returns the value of x raised to the power of y
+*@x: This is the base number
+*@y: power of y in the code
+*Return: x to the power of y in the code
+*/
+int _pow_recursion(int x, int y)
+{
+if (y < 0)
+return (-1);
+else if (y <= 0)
+return (1);
+else
+return (x * _pow_recursion(x, y - 1));
+}
