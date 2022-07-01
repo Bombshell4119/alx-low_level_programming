@@ -8,10 +8,12 @@
 */
 char *_memset(char *s, char b, unsigned int n)
 {
-char *ptr = s; 
-while (n--)
-*s++ = b;
-return (ptr);
+unsignd int i;
+for (i = 0; i < n; i++)
+{
+s[i] = b;
+}
+return (s);
 }
 /**
 *_calloc - allocates memory for an array, using malloc
@@ -22,11 +24,11 @@ return (ptr);
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 void *m;
-if (size == 0 || nmemb == 0)
+if (nmemb == 0 || size == 0)
 return (NULL); 
 m = malloc(nmemb * size);  
 if (m == 0)
 return (NULL);
-_memset(m, 0, nmemb * size);
+ _memset(m, 0, (nmemb * size));
 return (m);  
 }
