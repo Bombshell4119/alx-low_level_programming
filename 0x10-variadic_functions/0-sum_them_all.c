@@ -1,5 +1,4 @@
 #include "variadic_functions.h"
-
 /**
 * sum_them_all - function with two arguments
 * @n: int type first argume t
