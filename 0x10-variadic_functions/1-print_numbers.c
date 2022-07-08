@@ -1,5 +1,4 @@
-#include <stdarg.h>
-#include <stdio.h>
+#include "variadic_functions.h"
 /**
 * print_numbers - print numbers
 * @separator: item to use ot separate numbers
@@ -8,15 +7,15 @@
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-unsigned int i = 0;
-va_list ap;
-va_start(ap, n);
-if (!separator)
-return;
+va_list valist;
+unsigned int i;
+va_start(valist, n);
 for (i = 0; i < n; i++)
 {
-printf("%d%s", va_arg(ap, int), i != (n - 1) ? separator : "");
+printf("%d", va_arg(valist, int));
+if (separator && i < n - 1)
+printf("%s", separator);
 }
-va_end(ap);
-putchar('\n');
+printf("\n");
+va_end(valist);
 }
