@@ -1,0 +1,1 @@
+This folder contain sample codes on pointers, arrays and string. This task was given during holberton/ALx software engineering programme.
