@@ -1,0 +1,1 @@
+This directory contains sample c programming codes. This is in pursuit of my Alx-Holberton Software programming training.
